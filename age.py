@@ -1,8 +1,6 @@
 import datetime
 
-
 todays_date = str(datetime.date.today().strftime('%d-%m-%Y')).split("-")
-
 
 entered_date = input("Enter a date in the format dd-mm-yyyy: ").split("-")
 
